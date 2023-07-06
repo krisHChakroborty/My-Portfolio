@@ -1,0 +1,186 @@
+* {
+
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+body {
+    background-image: url(img/krrishPNG-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-color: rgb(2, 1, 1);
+
+
+}
+
+.krrishPNG {
+    width: 100px;
+}
+
+.colorWhite {
+    color: rgb(168, 164, 164);
+    font-weight: 900;
+    font-size: larger;
+    border: 1px solid rgb(11, 11, 192);
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.colorWhite:hover {
+    color: rgb(255, 0, 0);
+}
+
+.navbar-nav {
+
+    --bs-nav-link-hover-color: rgb(255 0 0 / 80%);
+
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: rgb(243 0 0);
+}
+
+.bg-dark {
+    background-image: url(img/krrishPNG-removebg-preview.png);
+    border: 1px solid rgb(68, 66, 66);
+    background-blend-mode: multiply;
+}
+
+.btn-close {
+    color: antiquewhite;
+    background-color: rgb(27, 126, 255);
+}
+
+.bg-green {
+    background-color: rgb(27, 126, 255);
+
+}
+
+.header_text {
+    color: rgb(198, 202, 199);
+    font-weight: lighter;
+    letter-spacing: 8px;
+}
+
+.name {
+    color: rgb(22, 162, 255);
+    text-align: right;
+}
+
+button {
+    background-color: black;
+    border: none;
+}
+
+b {
+    font-family: 'Preahvihear', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+}
+
+hr {
+    height: 1px;
+    color: rgb(99, 124, 253);
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 25%;
+}
+
+.btn a {
+    width: fit-content;
+    text-decoration: none;
+    color: bisque;
+}
+
+.btnwidth {
+    width: 28%;
+    background-color: blue;
+    margin-top: 5%;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin-left: 10%;
+}
+
+.login {
+    position: relative;
+    left: 30%;
+}
+
+.logout {
+    position: relative;
+    left: 31%;
+}
+
+
+.headerlinks {
+    margin-top: 60px;
+}
+
+.btn_width {
+    padding: 1px;
+    /* text-align: center; */
+    font-size: 21px;
+    font-family: system-ui;
+
+    /* color: black; */
+    /* border: 1px solid black; */
+}
+
+.btn_width {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width:870px) {
+    body {
+        background-image: url(https://media.istockphoto.com/id/909873788/photo/laptop-next-to-window-with-blurry-view-on-wooden-table-mock-up-home-work-place-concept.jpg?s=612x612&w=0&k=20&c=KvNXlgXPYCH9p6UlNDR0Ymdwc3l0D1sJSkGAZ0Py0oU=);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        /* background-blend-mode:luminosity; */
+    }
+
+    .name {
+        color: rgb(10, 60, 155);
+
+    }
+
+    .header_text {
+        color: rgb(8, 7, 7);
+    }
+
+    .login,
+    .logout {
+        display: none;
+    }
+
+    hr{
+        background-color: black;
+        height: 3px;
+    }
+
+    .headerlinks {
+        margin-top: 20px;
+    }
+
+    .btnwidth{
+        margin-left: 79%;
+    }
+    
+}
