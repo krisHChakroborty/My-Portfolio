@@ -196,9 +196,7 @@ hr {
     .login1, .logout2{
        display: none;
     }
-    .colorWhite{
-        
-    }
+    
 }
 
 @media only screen and (max-width:870px){
