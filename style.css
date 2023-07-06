@@ -4,6 +4,8 @@
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
 
+    
+
 }
 
 
@@ -180,7 +182,27 @@ hr {
     }
 
     .btnwidth{
-        margin-left: 79%;
+        margin-left: 70%;
     }
-    
+    header{
+        margin-top: 50px;
+    }
+    .login1, .logout2{
+        display: inline;
+     }
+}
+
+@media only screen and (max-width:2000px){
+    .login1, .logout2{
+       display: none;
+    }
+    .colorWhite{
+        
+    }
+}
+
+@media only screen and (max-width:870px){
+    .login1, .logout2{
+       display: inline-block;
+    }
 }
