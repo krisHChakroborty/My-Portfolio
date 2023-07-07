@@ -14,7 +14,7 @@
 body {
     background-image: url(img/krrishPNG-removebg-preview.png);
     background-repeat: no-repeat;
-    background-color: rgb(2, 1, 1);
+    background-color: rgb(12, 12, 12);
 
 
 }
@@ -33,7 +33,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #cecccc;
 }
 
 .colorWhite:hover {
@@ -54,7 +54,10 @@ body {
 .bg-dark {
     background-image: url(https://e0.pxfuel.com/wallpapers/354/782/desktop-wallpaper-huge-lines-of-code.jpg);
     border: 1px solid rgb(68, 66, 66);
-    /* background-blend-mode: multiply;*/
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 } 
 
 .btn-close {
@@ -160,7 +163,7 @@ hr {
     }
 
     .name {
-        color: rgb(255, 255, 255);
+        color: rgb(11, 11, 12);
     }
 
     .header_text {
