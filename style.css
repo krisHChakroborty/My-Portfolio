@@ -27,16 +27,17 @@ body {
     color: rgb(168, 164, 164);
     font-weight: 900;
     font-size: larger;
-    border: 1px solid rgb(11, 11, 192);
+    /* border: 1px solid rgb(11, 11, 192); */
     display: flex;
     /* text-align: center; */
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    background-color: #383838;
 }
 
 .colorWhite:hover {
-    color: rgb(255, 0, 0);
+    color: rgb(62, 48, 255);
 }
 
 .navbar-nav {
@@ -151,7 +152,7 @@ hr {
 
 @media only screen and (max-width:870px) {
     body {
-        background-image: url(https://media.istockphoto.com/id/909873788/photo/laptop-next-to-window-with-blurry-view-on-wooden-table-mock-up-home-work-place-concept.jpg?s=612x612&w=0&k=20&c=KvNXlgXPYCH9p6UlNDR0Ymdwc3l0D1sJSkGAZ0Py0oU=);
+        background-image: url(https://web-dev.imgix.net/image/admin/ltK4SNRultTnkbimOySm.jpg?auto=format);
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -159,12 +160,11 @@ hr {
     }
 
     .name {
-        color: rgb(10, 60, 155);
-
+        color: rgb(255 151 151);
     }
 
     .header_text {
-        color: rgb(8, 7, 7);
+        color: rgb(255, 255, 255);
     }
 
     .login,
